@@ -18,7 +18,7 @@ with source_data as (
 )
 
 select *
-from source_data
+from PRISTINE_ECOMMERCE.HIGHTOUCH_AUDIT.SYNC_RUNS
 
 /*
     Uncomment the line below to remove records with null `id` values
